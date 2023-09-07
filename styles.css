@@ -1,0 +1,204 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+html,body{
+    font-family: 'Harry Potter';
+    margin: 0;
+    padding: 0;                                           
+}
+
+/* Container1 css */
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+.head1{ 
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    margin-top: 20px;
+    
+}
+.head11{
+    margin-left:300px;
+}
+
+.head12{
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+    margin-right: 400px;
+    
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.head2{
+    margin-top: 100px;
+    margin-left:300px;
+    margin-bottom:100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.h-logo{
+    font-size: 24px;
+    color: #44a4f0;
+}
+
+.h-link1,.h-link2,.h-link3{
+        font-size: 18px;
+        color: #44a4f0;
+}
+
+.h1{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #44a4f0;
+    width:800px;
+}
+
+.h2{
+    font-size: 18px;
+    color: #44a4f0;
+    width: 800px;
+}
+
+.immg{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px; 
+    margin-bottom: 100px;  
+    margin-right: 400px; 
+}
+
+.signup{
+    background-color: #014b9b;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+
+/* Container2 css */
+
+.container2{
+        display: flex;
+        flex-direction: column;
+        background-color:black;
+}
+
+.magical-creature{
+    font-size: 36px;
+    font-weight: 800px;
+    color: #44a4f0;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imgf1{
+    font-size: 18px;
+    color: #44a4f0;
+}
+
+.pics-creatures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Container3 css */
+
+.container3{
+    display: flex;
+        flex-direction: column;
+        background-color:black;
+padding-top:100px ;
+padding-bottom: 100px;
+}
+
+
+
+.cursivetext{
+    font-weight:100;
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 600px;
+    color: #44a4f0;
+}
+
+.sign{
+    font-size: 25px;
+    font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   margin-right: 600px;
+   color: #44a4f0;
+}
+
+/* Container4 Css */
+
+.container5{
+    background-color: black;
+    margin: -50px 0;
+    padding: 50px;
+} 
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #44a4f0;;
+    margin:50px 400px;
+    padding: 30px 30px;
+    gap: 20px;
+}
+
+.wanduptext{
+    font-size: 18px;
+    color: black;
+}
+
+
+/*Footer Css */
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #44a4f0;
+    padding: 30px 100px;
+}
